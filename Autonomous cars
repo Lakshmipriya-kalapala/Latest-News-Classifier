@@ -1,4 +1,4 @@
-#################################################################################################
+ #################################################################################################
 # 01. DATASET CREATION
 
 # The aim of this script is to create a dataset with the following information:
@@ -18,10 +18,10 @@ library(readtext)
 rm(list = ls())
 
 # Working directory
-setwd('C:/Users/migue/Data Science/Master Data Science/KSCHOOL/9. TFM/0. Latest News Classifier/01. Dataset Creation')
+setwd(‘C:\Users\Admin\Downloads\New folder (2)\00. Raw dataset\2019AutonomousVehicleDisengagementReports.xlsx)
 
 # Path definition of the news archives
-path <- 'C:/Users/migue/Data Science/Master Data Science/KSCHOOL/9. TFM/0. Latest News Classifier/00. Raw dataset/BBC/bbc-fulltext/bbc'
+path <- C:\Users\Admin\Downloads\New folder (2)\00. Raw dataset\2019AutonomousVehicleDisengagementReports.xlsx. Raw dataset/2019/2019-fulltext/reports'
 
 # List with the 5 categories
 list_categories <- list.files(path=path)
